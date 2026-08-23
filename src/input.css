@@ -2,8 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --color-primary: #292929;
+  --color-secondary: #FFCB6D;
+}
+
+.dark {
+  --color-primary: #f5f5f5;
+  --color-secondary: #FFCB6D;
+}
+
 body {
     font-family: 'Inter', sans-serif;
+    @apply text-primary transition-colors duration-300;
+}
+
+.dark body {
+    @apply bg-[#1a1a1a];
 }
 
 .navbar-fixed {
@@ -13,7 +28,7 @@ body {
 }
 
 .hamburger-line {
-    @apply w-[30px] h-[2px] my-2 block bg-primary
+    @apply w-[30px] h-[2px] my-2 block bg-primary;
 }
 
 .hamburger-active > span:nth-child(1){
@@ -21,7 +36,7 @@ body {
 }
 
 .hamburger-active > span:nth-child(2){
-    @apply scale-0
+    @apply scale-0;
 }
 
 .hamburger-active > span:nth-child(3){

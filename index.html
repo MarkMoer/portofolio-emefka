@@ -1,543 +1,431 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="dist/output.css" rel="stylesheet" />
-    <title>Portofolio</title>
-  </head>
-  <body>
-    <!-- Header Start -->
-    <header
-      class="bg-transparent absolute top-0 left-0 w-full flex items-center z-50"
-    >
-      <div class="container">
-        <div class="flex items-center justify-between relative">
-          <div class="px-4">
-            <a href="#home" class="font-bold text-lg text-primary block py-6"
-              >emefka</a
-            >
-          </div>
-          <div class="flex items-center px-4">
-            <button
-              id="hamburger"
-              name="hamburger"
-              type="button"
-              class="block absolute right-4 lg:hidden"
-            >
-              <span
-                class="hamburger-line transition duration-300 ease-in-out origin-top-left"
-              ></span>
-              <span
-                class="hamburger-line transition duration-300 ease-in-out"
-              ></span>
-              <span
-                class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"
-              ></span>
-            </button>
-            <nav
-              id="nav-menu"
-              class="hidden absolute py-5 bg-primary shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none"
-            >
-              <ul class="block lg:flex">
-                <li class="group">
-                  <a
-                    href="#home"
-                    class="text-secondary text-base py-2 mx-8 flex lg:text-primary lg:font-semibold hover:underline"
-                    >Home</a
-                  >
-                </li>
-                <li class="group">
-                  <a
-                    href="#project"
-                    class="text-secondary text-base py-2 mx-8 flex lg:text-primary lg:font-semibold hover:underline"
-                    >Project</a
-                  >
-                </li>
-                <li class="group">
-                  <a
-                    href="#contact"
-                    class="text-secondary text-base py-2 mx-8 flex lg:text-primary lg:font-semibold hover:underline"
-                    >Contact Me</a
-                  >
-                </li>
-              </ul>
-            </nav>
-          </div>
-        </div>
-      </div>
-    </header>
-    <!-- Header End -->
-    <!-- Hero Section Start -->
-    <section id="home" class="bg-secondary pt-36">
-      <div class="container">
-        <div class="flex flex-wrap">
-          <div class="w-full self-center px-4 lg:w-1/2">
-            <p class="text-4xl font-semibold text-primary lg:text-5xl">
-              Hai, I'm Faris
-            </p>
-            <p class="text-2xl font-semibold text-primary mb-5 lg:text-3xl">
-              Web Developer Enthusiast
-            </p>
-            <p class="font-[550] text-primary mb-8 leading-relaxed">
-              Always learning while coding☕
-            </p>
+<html lang="id">
 
-            <div class="inline-flex space-x-4 mb-6">
-              <a href="#contact">
-                <button
-                  class="text-base font-semibold py-3 px-6 border-2 border-primary bg-primary rounded-full text-secondary hover:shadow-xl hover:opacity-85 transition duration-300 ease-in-out"
-                >
-                  Contact me
-                </button>
-              </a>
-              <a href="#project">
-                <button
-                  class="text-base font-semibold py-3 px-6 shadow-[8px_8px_0_0_#292929] border-2 border-primary rounded-full text-primary hover:shadow-[15px_15px_0_0_#292929] hover:opacity-85 transition duration-300 ease-in-out"
-                >
-                  See my project
-                </button>
-              </a>
-            </div>
-            <div class="flex items-center">
-              <!-- Instagram -->
-              <a
-                href="https://www.instagram.com/faris_kamaaluddin/"
-                target="_blank"
-                class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-primary text-primary hover:bg-primary hover:text-secondary"
-              >
-                <svg
-                  role="img"
-                  viewBox="0 0 50 50"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="20"
-                  class="fill-current"
-                >
-                  <title>Instagram</title>
-                  <path
-                    d="M 16 3 C 8.8324839 3 3 8.8324839 3 16 L 3 34 C 3 41.167516 8.8324839 47 16 47 L 34 47 C 41.167516 47 47 41.167516 47 34 L 47 16 C 47 8.8324839 41.167516 3 34 3 L 16 3 z M 16 5 L 34 5 C 40.086484 5 45 9.9135161 45 16 L 45 34 C 45 40.086484 40.086484 45 34 45 L 16 45 C 9.9135161 45 5 40.086484 5 34 L 5 16 C 5 9.9135161 9.9135161 5 16 5 z M 37 11 A 2 2 0 0 0 35 13 A 2 2 0 0 0 37 15 A 2 2 0 0 0 39 13 A 2 2 0 0 0 37 11 z M 25 14 C 18.936712 14 14 18.936712 14 25 C 14 31.063288 18.936712 36 25 36 C 31.063288 36 36 31.063288 36 25 C 36 18.936712 31.063288 14 25 14 z M 25 16 C 29.982407 16 34 20.017593 34 25 C 34 29.982407 29.982407 34 25 34 C 20.017593 34 16 29.982407 16 25 C 16 20.017593 20.017593 16 25 16 z"
-                  />
-                </svg>
-              </a>
-              <!-- LinkedIn -->
-              <a
-                href="https://www.linkedin.com/in/muhammad-faris-kamaaluddin"
-                target="_blank"
-                class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-primary text-primary hover:bg-primary hover:text-secondary"
-              >
-                <svg
-                  role="img"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="20"
-                  class="fill-current"
-                >
-                  <title>LinkedIn</title>
-                  <path
-                    d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
-                  />
-                </svg>
-              </a>
-              <!-- Github -->
-              <a
-                href="https://github.com/MarkMoer/"
-                target="_blank"
-                class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-primary text-primary hover:bg-primary hover:text-secondary"
-              >
-                <svg
-                  role="img"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="20"
-                  class="fill-current"
-                >
-                  <title>Github</title>
-                  <path
-                    d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
-                  />
-                </svg>
-              </a>
-              <!-- Facebook -->
-              <a
-                href="https://www.facebook.com/faris.kamaaluddin/"
-                target="_blank"
-                class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-primary text-primary hover:bg-primary hover:text-secondary"
-              >
-                <svg
-                  role="img"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="20"
-                  class="fill-current"
-                >
-                  <title>Facebook</title>
-                  <path
-                    d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
-                  />
-                </svg>
-              </a>
-            </div>
-          </div>
-          <div class="w-full self-end px-4 lg:w-1/2">
-            <div class="relative z-10 mt-10 lg:mt-9 lg:right-0">
-              <img
-                src="dist/img/faris.png"
-                alt="faris"
-                class="max-w-full mx-auto"
-              />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portofolio | Muhammad Faris Kamaaluddin</title>
+  <meta name="description"
+    content="Portofolio Muhammad Faris Kamaaluddin — Web Developer Enthusiast dari Gresik, Indonesia. Mengembangkan website menggunakan React.js, Next.js, Laravel, dan Tailwind CSS." />
+  <meta name="keywords" content="portofolio, web developer, faris kamaaluddin, react, laravel, tailwind css" />
+  <meta name="author" content="Muhammad Faris Kamaaluddin" />
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Portofolio | Muhammad Faris Kamaaluddin" />
+  <meta property="og:description"
+    content="Portofolio Muhammad Faris Kamaaluddin — Web Developer Enthusiast dari Gresik, Indonesia." />
+  <meta property="og:image" content="./img/faris.png" />
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Portofolio | Muhammad Faris Kamaaluddin" />
+  <meta name="twitter:description"
+    content="Portofolio Muhammad Faris Kamaaluddin — Web Developer Enthusiast dari Gresik, Indonesia." />
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23292929'/><text x='50' y='72' font-size='60' font-family='Arial, sans-serif' font-weight='bold' fill='%23FFCB6D' text-anchor='middle'>f</text></svg>" />
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <script>
+    (function () {
+      const saved = localStorage.getItem('theme');
+      const prefersDark = window.matchMedia(
+        '(prefers-color-scheme: dark)'
+      ).matches;
+      if (saved === 'dark' || (!saved && prefersDark)) {
+        document.documentElement.classList.add('dark');
+      } else {
+        document.documentElement.classList.remove('dark');
+      }
+    })();
+  </script>
+</head>
 
-              <span
-                class="absolute -z-30 -bottom-0 left-1/2 -translate-x-1/2 md:scale-125"
-              >
-                <svg
-                  width="400"
-                  height="400"
-                  viewBox="0 0 200 200"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill="#292929"
-                    d="M60.7,-58.2C77.2,-44.3,87.9,-22.1,85.8,-2C83.8,18.1,69,36.1,52.6,50.8C36.1,65.4,18.1,76.7,-2.1,78.8C-22.3,80.9,-44.6,73.9,-59.5,59.2C-74.5,44.6,-82,22.3,-82.5,-0.4C-82.9,-23.2,-76.2,-46.4,-61.3,-60.3C-46.4,-74.3,-23.2,-79,-0.5,-78.5C22.1,-78,44.3,-72.2,60.7,-58.2Z"
-                    transform="translate(100 100) scale(0.7)"
-                  />
-                </svg>
-              </span>
-            </div>
-          </div>
+<body>
+  <!-- Header Start -->
+  <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-50">
+    <div class="container">
+      <div class="flex items-center justify-between relative">
+        <div class="px-4">
+          <a href="#home" class="font-bold text-lg text-primary block py-6 dark:text-[#292929]">emefka</a>
         </div>
-      </div>
-    </section>
-    <!-- Hero Section End -->
-    <!-- Project Start -->
-    <section id="project" class="pt-36 pb-16">
-      <div class="container">
-        <div class="w-full px-4">
-          <div class="max-w-xl mx-auto text-center mb-16">
-            <p class="font-bold text-3xl text-primary">Project</p>
-          </div>
-        </div>
-
-        <div
-          class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto"
-        >
-          <div class="mb-12 p-4 md:w-1/2">
-            <div
-              class="rounded-md border-primary border-[3px] shadow-[8px_8px_0_0_#292929] overflow-hidden"
-            >
-              <img
-                src="dist/img/project/Project1.PNG"
-                alt="project 1"
-                width="w-full"
-              />
-            </div>
-            <p class="font-semibold text-xl text-primary mt-5 mb-3">
-              Fullstack Web Profile Asosiasi Pengusaha Indonesia Kabupaten
-              Gresik
-            </p>
-            <p class="font-medium text-base text-primary mb-8">
-              Merupakan website profil Asosiasi Pengusaha Indonesia (APINDO) DPK
-              Gresik yang menyajikan informasi terkait APINDO, termasuk berita
-              dan dokumentasi visual kegiatan yang diadakan oleh APINDO. Selain
-              itu, tersedia formulir pendaftaran anggota. Website ini dibangun
-              menggunakan React.js untuk frontend, Express.js untuk backend, dan
-              MySQL sebagai basis data.
-            </p>
-            <div class="w-full">
-              <a
-                href="https://github.com/MarkMoer/prev-web-apindo"
-                target="_blank"
-                class="w-full text-base font-semibold py-3 px-6 shadow-[8px_8px_0_0_#292929] border-2 border-primary rounded-full text-primary hover:shadow-[15px_15px_0_0_#292929] hover:opacity-85 transition duration-300 ease-in-out"
-              >
-                View on Github
-              </a>
-            </div>
-          </div>
-          <div class="mb-12 p-4 md:w-1/2">
-            <div
-              class="rounded-md border-primary border-[3px] shadow-[8px_8px_0_0_#292929] overflow-hidden"
-            >
-              <img
-                src="dist/img/project/Project2.png"
-                alt="project 2"
-                width="w-full"
-              />
-            </div>
-            <p class="font-semibold text-xl text-primary mt-5 mb-3">
-              Flutter Movie App
-            </p>
-            <p class="font-medium text-base text-primary mb-8">
-              Merupakan proyek akhir dari bootcamp Sanbercode yang dibangun
-              menggunakan Flutter untuk membuat aplikasi. Selain itu, proyek ini
-              juga mengintegrasikan Firebase sebagai sistem autentikasi dan
-              menggunakan API dari Studio Ghibli.
-            </p>
-            <div class="w-full">
-              <a
-                href="https://gitlab.com/faris.kamaaluddin/bootcampflutter"
-                target="_blank"
-                class="w-full text-base font-semibold py-3 px-6 shadow-[8px_8px_0_0_#292929] border-2 border-primary rounded-full text-primary hover:shadow-[15px_15px_0_0_#292929] hover:opacity-85 transition duration-300 ease-in-out"
-              >
-                View on Gitlab
-              </a>
-            </div>
-          </div>
-          <div class="mb-12 p-4 md:w-1/2">
-            <div
-              class="rounded-md border-primary border-[3px] shadow-[8px_8px_0_0_#292929] overflow-hidden"
-            >
-              <img
-                src="dist/img/project/Project3.PNG"
-                alt="project 3"
-                width="w-full"
-              />
-            </div>
-            <p class="font-semibold text-xl text-primary mt-5 mb-3">
-              React Quotes App
-            </p>
-            <p class="font-medium text-base text-primary mb-8">
-              Website ini menerapkan Tailwind CSS dalam desain tampilannya dan
-              React js, serta menggunakan API dari Random Quotes API.
-            </p>
-            <div class="w-full">
-              <a
-                href="https://github.com/MarkMoer/"
-                target="_blank"
-                class="w-full text-base font-semibold py-3 px-6 shadow-[8px_8px_0_0_#292929] border-2 border-primary rounded-full text-primary hover:shadow-[15px_15px_0_0_#292929] hover:opacity-85 transition duration-300 ease-in-out"
-              >
-                View on Github
-              </a>
-            </div>
-          </div>
-          <div class="mb-12 p-4 md:w-1/2">
-            <div
-              class="rounded-md border-primary border-[3px] shadow-[8px_8px_0_0_#292929] overflow-hidden"
-            >
-              <img
-                src="dist/img/project/Project4.PNG"
-                alt="project 4"
-                width="w-full"
-              />
-            </div>
-            <p class="font-semibold text-xl text-primary mt-5 mb-3">
-              Ayo Sholat App
-            </p>
-            <p class="font-medium text-base text-primary mb-8">
-              Ayo Sholat adalah jadwal sholat 5 waktu dengan mengintegrasikan
-              API dari myQuran.com, yang merupakan pengembangan dari API Fatimah
-              dan API bangHasan. Tampilan website ini dirancang dengan
-              menggunakan Tailwind CSS dan Vite ReactJS.
-            </p>
-            <div class="w-full">
-              <a
-                href="https://github.com/MarkMoer/ayo-sholat"
-                target="_blank"
-                class="w-full text-base font-semibold py-3 px-6 shadow-[8px_8px_0_0_#292929] border-2 border-primary rounded-full text-primary hover:shadow-[15px_15px_0_0_#292929] hover:opacity-85 transition duration-300 ease-in-out"
-              >
-                View on Github
-              </a>
-            </div>
-          </div>
-          <div class="mb-12 p-4 md:w-1/2 text-justify">
-            <div
-              class="rounded-md border-primary border-[3px] shadow-[8px_8px_0_0_#292929] overflow-hidden"
-            >
-              <img
-                src="dist/img/project/Project5.PNG"
-                alt="project 5"
-                width="w-full"
-              />
-            </div>
-            <p class="font-semibold text-xl text-primary mt-5 mb-3">
-              Anime List App
-            </p>
-            <p class="font-medium text-base text-primary mb-8">
-              Anime List App merupakan website rekomendasi anime yang
-              terpopuler. Pada website terdapat beberapa fitur diantaranya yaitu
-              fitur search dan sign in with github. Data yang digunakan pada
-              website ini menggunakan API dari Jikan API. Tampilan website ini
-              dirancang dengan menggunakan Tailwind CSS dan Next JS.
-            </p>
-            <div class="w-full">
-              <a
-                href="https://github.com/MarkMoer/animelist/"
-                target="_blank"
-                class="w-full text-base font-semibold py-3 px-6 shadow-[8px_8px_0_0_#292929] border-2 border-primary rounded-full text-primary hover:shadow-[15px_15px_0_0_#292929] hover:opacity-85 transition duration-300 ease-in-out"
-              >
-                View on Github
-              </a>
-            </div>
-          </div>
-          <div class="mb-12 p-4 md:w-1/2 text-justify">
-            <div
-              class="rounded-md border-primary border-[3px] shadow-[8px_8px_0_0_#292929] overflow-hidden"
-            >
-              <img
-                src="dist/img/project/Project6.PNG"
-                alt="project 6"
-                width="w-full"
-              />
-            </div>
-            <p class="font-semibold text-xl text-primary mt-5 mb-3">
-              Backend POS - Laravel
-            </p>
-            <p class="font-medium text-base text-primary mb-8">
-              Sistem Point of Sale (POS) adalah aplikasi perangkat lunak atau
-              platform online yang memungkinkan bisnis untuk melakukan transaksi
-              penjualan barang atau jasa. Pada website ini dirancang dengan
-              menggunakan Laravel dan database menggunakan MySQL.
-            </p>
-            <div class="w-full">
-              <a
-                href="https://github.com/MarkMoer/-laravel-pos-backend-Muhammad-Faris-Kamaaluddin"
-                target="_blank"
-                class="w-full text-base font-semibold py-3 px-6 shadow-[8px_8px_0_0_#292929] border-2 border-primary rounded-full text-primary hover:shadow-[15px_15px_0_0_#292929] hover:opacity-85 transition duration-300 ease-in-out"
-              >
-                View on Github
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Project End -->
-    <!-- Contact Start -->
-    <section id="contact" class="pt-36 pb-32">
-      <div class="container">
-        <div class="w-full px-4">
-          <div class="max-w-xl mx-auto text-center mb-16">
-            <p class="font-bold text-3xl text-primary">Contact</p>
-          </div>
-        </div>
-
-        <form>
-          <div class="w-full lg:w-2/3 lg:mx-auto">
-            <div class="w-full px-4 mb-8">
-              <label for="name" class="text-base text-primary font-bold"
-                >Name</label
-              >
-              <input
-                type="text"
-                id="name"
-                class="w-full bg-secondary border-2 border-primary shadow-[8px_8px_0_0_#292929] text-primary p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary"
-              />
-            </div>
-            <div class="w-full px-4 mb-8">
-              <label for="email" class="text-base text-primary font-bold"
-                >Email</label
-              >
-              <input
-                type="email"
-                id="email"
-                class="w-full bg-secondary border-2 border-primary shadow-[8px_8px_0_0_#292929] text-primary p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary"
-              />
-            </div>
-            <div class="w-full px-4 mb-8">
-              <label for="message" class="text-base text-primary font-bold"
-                >Message</label
-              >
-              <textarea
-                type="text"
-                id="message"
-                class="w-full bg-secondary border-2 border-primary shadow-[8px_8px_0_0_#292929] text-primary p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary h-32"
-              ></textarea>
-            </div>
-            <div class="w-full px-4">
-              <button
-                class="w-full bg-secondary text-base font-semibold py-3 px-6 shadow-[8px_8px_0_0_#292929] border-2 border-primary rounded-full text-primary hover:shadow-[15px_15px_0_0_#292929] hover:opacity-85 transition duration-300 ease-in-out"
-              >
-                Send
-              </button>
-            </div>
-          </div>
-        </form>
-      </div>
-    </section>
-    <!-- Contact End -->
-    <!-- Footer Start -->
-    <footer class="bg-primary pt-24 pb-12">
-      <div class="container">
-        <div class="flex flex-wrap">
-          <div class="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/3">
-            <p class="font-bold text-2xl text-white mb-5">
-              Muhammad Faris Kamaaluddin
-            </p>
-            <p class="font-bold text-xl mb-2">Contact me</p>
-            <p>faris.kamaaluddin@gmail.com</p>
-            <p>Gresik East Java, Indonesia</p>
-          </div>
-          <div class="w-full px-4 mb-12 md:w-1/3">
-            <p class="font-bold text-xl text-white mb-5">Social Media</p>
-            <ul class="text-slate-300">
-              <li>
-                <a
-                  href="https://www.instagram.com/faris_kamaaluddin/"
-                  class="inline-block text-base hover:text-secondary mb-3"
-                  target="_blank"
-                  >Instagram</a
-                >
+        <div class="flex items-center px-4">
+          <button id="theme-toggle" name="theme-toggle" type="button" aria-label="Toggle dark mode"
+            class="mr-14 lg:mr-0 w-10 h-10 rounded-full flex justify-center items-center border border-primary text-primary hover:bg-primary hover:text-secondary transition duration-300 ease-in-out dark:border-[#292929] dark:text-[#292929] dark:hover:bg-[#292929] dark:hover:text-[#FFCB6D]">
+            <svg id="icon-moon" class="dark:hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20"
+              fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+            <svg id="icon-sun" class="hidden dark:block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+              width="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round">
+              <circle cx="12" cy="12" r="5"></circle>
+              <line x1="12" y1="1" x2="12" y2="3"></line>
+              <line x1="12" y1="21" x2="12" y2="23"></line>
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+              <line x1="1" y1="12" x2="3" y2="12"></line>
+              <line x1="21" y1="12" x2="23" y2="12"></line>
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+          </button>
+          <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+            <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+            <span class="hamburger-line transition duration-300 ease-in-out"></span>
+            <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+          </button>
+          <nav id="nav-menu"
+            class="hidden absolute py-5 bg-primary shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+            <ul class="block lg:flex">
+              <li class="group">
+                <a href="#home"
+                  class="text-secondary text-base py-2 mx-8 flex lg:text-primary lg:font-semibold hover:underline">Home</a>
               </li>
-              <li>
-                <a
-                  href="https://www.linkedin.com/in/muhammad-faris-kamaaluddin"
-                  class="inline-block text-base hover:text-secondary mb-3"
-                  target="_blank"
-                  >LinkedIn</a
-                >
+              <li class="group">
+                <a href="#project"
+                  class="text-secondary text-base py-2 mx-8 flex lg:text-primary lg:font-semibold hover:underline">Project</a>
               </li>
-              <li>
-                <a
-                  href="https://github.com/MarkMoer/"
-                  class="inline-block text-base hover:text-secondary mb-3"
-                  target="_blank"
-                  >Github</a
-                >
-              </li>
-              <li>
-                <a
-                  href="https://www.facebook.com/faris.kamaaluddin/"
-                  class="inline-block text-base hover:text-secondary mb-3"
-                  target="_blank"
-                  >Facebook</a
-                >
+              <li class="group">
+                <a href="#contact"
+                  class="text-secondary text-base py-2 mx-8 flex lg:text-primary lg:font-semibold hover:underline">Contact
+                  Me</a>
               </li>
             </ul>
-          </div>
-          <div class="w-full px-4 mb-12 md:w-1/3">
-            <p class="font-bold text-xl text-white mb-5">Link</p>
-            <ul class="text-slate-300">
-              <li>
-                <a
-                  href="#home"
-                  class="inline-block text-base hover:text-secondary mb-3"
-                  >Home</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#project"
-                  class="inline-block text-base hover:text-secondary mb-3"
-                  >Project</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#contact"
-                  class="inline-block text-base hover:text-secondary mb-3"
-                  >Contact</a
-                >
-              </li>
-            </ul>
-          </div>
+          </nav>
         </div>
-        <div class="w-full pt-10 border-t border-slate-700">
-          <p class="font-medium text-xs text-slate-500 text-center">
-            © 2023 Muhammad Faris Kamaaluddin, All Rights Reserved
+      </div>
+    </div>
+  </header>
+  <!-- Header End -->
+  <!-- Hero Section Start -->
+  <section id="home" class="bg-secondary pt-36">
+    <div class="container">
+      <div class="flex flex-wrap">
+        <div class="w-full self-center px-4 lg:w-1/2">
+          <p class="text-4xl font-semibold text-primary lg:text-5xl dark:text-[#292929]">
+            Hai, I'm Faris
           </p>
+          <p class="text-2xl font-semibold text-primary mb-5 lg:text-3xl dark:text-[#292929]">
+            Web Developer Enthusiast
+          </p>
+          <p class="font-[550] text-primary mb-8 leading-relaxed dark:text-[#292929]">
+            Always learning while coding☕
+          </p>
+
+          <div class="inline-flex space-x-4 mb-6">
+            <a href="#contact"
+              class="text-base font-semibold py-3 px-6 border-2 border-primary bg-primary rounded-full text-secondary hover:shadow-xl hover:opacity-85 transition duration-300 ease-in-out dark:bg-[#292929]">
+              Contact me
+            </a>
+            <a href="#project"
+              class="text-base font-semibold py-3 px-6 shadow-[8px_8px_0_0_var(--color-primary)] border-2 border-primary rounded-full text-primary hover:shadow-[15px_15px_0_0_var(--color-primary)] hover:opacity-85 transition duration-300 ease-in-out dark:border-[#292929] dark:text-[#292929]">
+              See my project
+            </a>
+          </div>
+          <div class="flex items-center">
+            <!-- Instagram -->
+            <a href="https://www.instagram.com/faris_kamaaluddin/" target="_blank" rel="noopener noreferrer"
+              class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-primary text-primary hover:bg-primary hover:text-secondary dark:border-[#292929] dark:text-[#292929]">
+              <svg role="img" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" width="20" class="fill-current">
+                <title>Instagram</title>
+                <path
+                  d="M 16 3 C 8.8324839 3 3 8.8324839 3 16 L 3 34 C 3 41.167516 8.8324839 47 16 47 L 34 47 C 41.167516 47 47 41.167516 47 34 L 47 16 C 47 8.8324839 41.167516 3 34 3 L 16 3 z M 16 5 L 34 5 C 40.086484 5 45 9.9135161 45 16 L 45 34 C 45 40.086484 40.086484 45 34 45 L 16 45 C 9.9135161 45 5 40.086484 5 34 L 5 16 C 5 9.9135161 9.9135161 5 16 5 z M 37 11 A 2 2 0 0 0 35 13 A 2 2 0 0 0 37 15 A 2 2 0 0 0 39 13 A 2 2 0 0 0 37 11 z M 25 14 C 18.936712 14 14 18.936712 14 25 C 14 31.063288 18.936712 36 25 36 C 31.063288 36 36 31.063288 36 25 C 36 18.936712 31.063288 14 25 14 z M 25 16 C 29.982407 16 34 20.017593 34 25 C 34 29.982407 29.982407 34 25 34 C 20.017593 34 16 29.982407 16 25 C 16 20.017593 20.017593 16 25 16 z" />
+              </svg>
+            </a>
+            <!-- LinkedIn -->
+            <a href="https://www.linkedin.com/in/muhammad-faris-kamaaluddin" target="_blank" rel="noopener noreferrer"
+              class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-primary text-primary hover:bg-primary hover:text-secondary dark:border-[#292929] dark:text-[#292929]">
+              <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="20" class="fill-current">
+                <title>LinkedIn</title>
+                <path
+                  d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+              </svg>
+            </a>
+            <!-- Github -->
+            <a href="https://github.com/MarkMoer/" target="_blank" rel="noopener noreferrer"
+              class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-primary text-primary hover:bg-primary hover:text-secondary dark:border-[#292929] dark:text-[#292929]">
+              <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="20" class="fill-current">
+                <title>Github</title>
+                <path
+                  d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+              </svg>
+            </a>
+            <!-- Facebook -->
+            <a href="https://www.facebook.com/faris.kamaaluddin/" target="_blank" rel="noopener noreferrer"
+              class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-primary text-primary hover:bg-primary hover:text-secondary dark:border-[#292929] dark:text-[#292929]">
+              <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="20" class="fill-current">
+                <title>Facebook</title>
+                <path
+                  d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="w-full self-end px-4 lg:w-1/2">
+          <div class="relative z-10 mt-10 lg:mt-9 lg:right-0">
+            <img src="./img/faris.png" alt="Foto Muhammad Faris Kamaaluddin" class="max-w-full mx-auto" />
+
+            <span class="absolute -z-30 -bottom-0 left-1/2 -translate-x-1/2 md:scale-125">
+              <svg width="400" height="400" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <path fill="var(--color-primary)"
+                  d="M60.7,-58.2C77.2,-44.3,87.9,-22.1,85.8,-2C83.8,18.1,69,36.1,52.6,50.8C36.1,65.4,18.1,76.7,-2.1,78.8C-22.3,80.9,-44.6,73.9,-59.5,59.2C-74.5,44.6,-82,22.3,-82.5,-0.4C-82.9,-23.2,-76.2,-46.4,-61.3,-60.3C-46.4,-74.3,-23.2,-79,-0.5,-78.5C22.1,-78,44.3,-72.2,60.7,-58.2Z"
+                  transform="translate(100 100) scale(0.7)" />
+              </svg>
+            </span>
+          </div>
         </div>
       </div>
-    </footer>
-    <!-- Footer End -->
-    <script src="dist/js/script.js"></script>
-  </body>
+    </div>
+  </section>
+  <!-- Hero Section End -->
+  <!-- Project Start -->
+  <section id="project" class="pt-36 pb-16">
+    <div class="container">
+      <div class="w-full px-4">
+        <div class="max-w-xl mx-auto text-center mb-16">
+          <p class="font-bold text-3xl text-primary">Project</p>
+        </div>
+      </div>
+
+      <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
+        <div class="mb-12 p-4 md:w-1/2">
+          <div class="rounded-md border-primary border-[3px] shadow-[8px_8px_0_0_var(--color-primary)] overflow-hidden">
+            <img src="./img/project/Project1.PNG" alt="Screenshot website profil APINDO DPK Gresik" loading="lazy"
+              class="w-full" />
+          </div>
+          <p class="font-semibold text-xl text-primary mt-5 mb-3">
+            Fullstack Web Profile Asosiasi Pengusaha Indonesia Kabupaten
+            Gresik
+          </p>
+          <p class="font-medium text-base text-primary mb-8">
+            Merupakan website profil Asosiasi Pengusaha Indonesia (APINDO) DPK
+            Gresik yang menyajikan informasi terkait APINDO, termasuk berita
+            dan dokumentasi visual kegiatan yang diadakan oleh APINDO. Selain
+            itu, tersedia formulir pendaftaran anggota. Website ini dibangun
+            menggunakan React.js untuk frontend, Express.js untuk backend, dan
+            MySQL sebagai basis data.
+          </p>
+          <div class="w-full">
+            <a href="https://github.com/MarkMoer/prev-web-apindo" target="_blank" rel="noopener noreferrer"
+              class="w-full text-base font-semibold py-3 px-6 shadow-[8px_8px_0_0_var(--color-primary)] border-2 border-primary rounded-full text-primary hover:shadow-[15px_15px_0_0_var(--color-primary)] hover:opacity-85 transition duration-300 ease-in-out">
+              View on Github
+            </a>
+          </div>
+        </div>
+        <div class="mb-12 p-4 md:w-1/2">
+          <div class="rounded-md border-primary border-[3px] shadow-[8px_8px_0_0_var(--color-primary)] overflow-hidden">
+            <img src="./img/project/Project2.png" alt="Tampilan aplikasi Flutter Movie App" loading="lazy"
+              class="w-full" />
+          </div>
+          <p class="font-semibold text-xl text-primary mt-5 mb-3">
+            Flutter Movie App
+          </p>
+          <p class="font-medium text-base text-primary mb-8">
+            Merupakan proyek akhir dari bootcamp Sanbercode yang dibangun
+            menggunakan Flutter untuk membuat aplikasi. Selain itu, proyek ini
+            juga mengintegrasikan Firebase sebagai sistem autentikasi dan
+            menggunakan API dari Studio Ghibli.
+          </p>
+          <div class="w-full">
+            <a href="https://gitlab.com/faris.kamaaluddin/bootcampflutter" target="_blank" rel="noopener noreferrer"
+              class="w-full text-base font-semibold py-3 px-6 shadow-[8px_8px_0_0_var(--color-primary)] border-2 border-primary rounded-full text-primary hover:shadow-[15px_15px_0_0_var(--color-primary)] hover:opacity-85 transition duration-300 ease-in-out">
+              View on Gitlab
+            </a>
+          </div>
+        </div>
+        <div class="mb-12 p-4 md:w-1/2">
+          <div class="rounded-md border-primary border-[3px] shadow-[8px_8px_0_0_var(--color-primary)] overflow-hidden">
+            <img src="./img/project/Project3.PNG" alt="Tampilan website React Quotes App" loading="lazy"
+              class="w-full" />
+          </div>
+          <p class="font-semibold text-xl text-primary mt-5 mb-3">
+            React Quotes App
+          </p>
+          <p class="font-medium text-base text-primary mb-8">
+            Website ini menerapkan Tailwind CSS dalam desain tampilannya dan
+            React js, serta menggunakan API dari Random Quotes API.
+          </p>
+          <div class="w-full">
+            <a href="https://github.com/MarkMoer/" target="_blank" rel="noopener noreferrer"
+              class="w-full text-base font-semibold py-3 px-6 shadow-[8px_8px_0_0_var(--color-primary)] border-2 border-primary rounded-full text-primary hover:shadow-[15px_15px_0_0_var(--color-primary)] hover:opacity-85 transition duration-300 ease-in-out">
+              View on Github
+            </a>
+          </div>
+        </div>
+        <div class="mb-12 p-4 md:w-1/2">
+          <div class="rounded-md border-primary border-[3px] shadow-[8px_8px_0_0_var(--color-primary)] overflow-hidden">
+            <img src="./img/project/Project4.PNG" alt="Tampilan website Ayo Sholat" loading="lazy" class="w-full" />
+          </div>
+          <p class="font-semibold text-xl text-primary mt-5 mb-3">
+            Ayo Sholat App
+          </p>
+          <p class="font-medium text-base text-primary mb-8">
+            Ayo Sholat adalah jadwal sholat 5 waktu dengan mengintegrasikan
+            API dari myQuran.com, yang merupakan pengembangan dari API Fatimah
+            dan API bangHasan. Tampilan website ini dirancang dengan
+            menggunakan Tailwind CSS dan Vite ReactJS.
+          </p>
+          <div class="w-full flex gap-4">
+            <a href="https://github.com/MarkMoer/ayo-sholat" target="_blank" rel="noopener noreferrer"
+              class="flex-1 text-base font-semibold py-3 px-6 shadow-[8px_8px_0_0_var(--color-primary)] border-2 border-primary rounded-full text-primary hover:shadow-[15px_15px_0_0_var(--color-primary)] hover:opacity-85 transition duration-300 ease-in-out">
+              View on Github
+            </a>
+            <a href="https://ayo-sholat.emefka-app.my.id/"
+              class="flex-1 text-base font-semibold py-3 px-6 shadow-[8px_8px_0_0_var(--color-primary)] border-2 border-primary rounded-full text-primary hover:shadow-[15px_15px_0_0_var(--color-primary)] hover:opacity-85 transition duration-300 ease-in-out">
+              View
+            </a>
+          </div>
+        </div>
+        <div class="mb-12 p-4 md:w-1/2 text-justify">
+          <div class="rounded-md border-primary border-[3px] shadow-[8px_8px_0_0_var(--color-primary)] overflow-hidden">
+            <img src="./img/project/Project5.PNG" alt="Tampilan website Anime List App" loading="lazy" class="w-full" />
+          </div>
+          <p class="font-semibold text-xl text-primary mt-5 mb-3">
+            Anime List App
+          </p>
+          <p class="font-medium text-base text-primary mb-8">
+            Anime List App merupakan website rekomendasi anime yang
+            terpopuler. Pada website terdapat beberapa fitur diantaranya yaitu
+            fitur search dan sign in with github. Data yang digunakan pada
+            website ini menggunakan API dari Jikan API. Tampilan website ini
+            dirancang dengan menggunakan Tailwind CSS dan Next JS.
+          </p>
+          <div class="w-full">
+            <a href="https://github.com/MarkMoer/animelist/" target="_blank" rel="noopener noreferrer"
+              class="w-full text-base font-semibold py-3 px-6 shadow-[8px_8px_0_0_var(--color-primary)] border-2 border-primary rounded-full text-primary hover:shadow-[15px_15px_0_0_var(--color-primary)] hover:opacity-85 transition duration-300 ease-in-out">
+              View on Github
+            </a>
+          </div>
+        </div>
+        <div class="mb-12 p-4 md:w-1/2 text-justify">
+          <div class="rounded-md border-primary border-[3px] shadow-[8px_8px_0_0_var(--color-primary)] overflow-hidden">
+            <img src="./img/project/Project6.PNG" alt="Struktur backend POS berbasis Laravel" loading="lazy"
+              class="w-full" />
+          </div>
+          <p class="font-semibold text-xl text-primary mt-5 mb-3">
+            Backend POS - Laravel
+          </p>
+          <p class="font-medium text-base text-primary mb-8">
+            Sistem Point of Sale (POS) adalah aplikasi perangkat lunak atau
+            platform online yang memungkinkan bisnis untuk melakukan transaksi
+            penjualan barang atau jasa. Pada website ini dirancang dengan
+            menggunakan Laravel dan database menggunakan MySQL.
+          </p>
+          <div class="w-full">
+            <a href="https://github.com/MarkMoer/-laravel-pos-backend-Muhammad-Faris-Kamaaluddin" target="_blank"
+              rel="noopener noreferrer"
+              class="w-full text-base font-semibold py-3 px-6 shadow-[8px_8px_0_0_var(--color-primary)] border-2 border-primary rounded-full text-primary hover:shadow-[15px_15px_0_0_var(--color-primary)] hover:opacity-85 transition duration-300 ease-in-out">
+              View on Github
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Project End -->
+  <!-- Contact Start -->
+  <section id="contact" class="pt-36 pb-32">
+    <div class="container">
+      <div class="w-full px-4">
+        <div class="max-w-xl mx-auto text-center mb-16">
+          <p class="font-bold text-3xl text-primary">Contact</p>
+        </div>
+      </div>
+
+      <form id="contact-form">
+        <div class="w-full lg:w-2/3 lg:mx-auto">
+          <p id="form-status" class="hidden mb-4 text-center"></p>
+          <input type="text" id="botcheck" name="botcheck" class="hidden" tabindex="-1" autocomplete="off" />
+          <div class="w-full px-4 mb-8">
+            <label for="name" class="text-base text-primary font-bold">Name</label>
+            <input type="text" id="name" name="name" maxlength="100" required
+              class="w-full bg-secondary border-2 border-primary shadow-[8px_8px_0_0_var(--color-primary)] text-primary p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary dark:text-[#292929]" />
+          </div>
+          <div class="w-full px-4 mb-8">
+            <label for="email" class="text-base text-primary font-bold">Email</label>
+            <input type="email" id="email" name="email" maxlength="254" required
+              class="w-full bg-secondary border-2 border-primary shadow-[8px_8px_0_0_var(--color-primary)] text-primary p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary dark:text-[#292929]" />
+          </div>
+          <div class="w-full px-4 mb-8">
+            <label for="message" class="text-base text-primary font-bold">Message</label>
+            <textarea id="message" name="message" maxlength="2000" required
+              class="w-full bg-secondary border-2 border-primary shadow-[8px_8px_0_0_var(--color-primary)] text-primary p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary h-32"></textarea>
+          </div>
+          <div class="w-full px-4">
+            <button type="submit" id="submit-btn"
+              class="disabled:opacity-50 disabled:cursor-not-allowed w-full bg-secondary text-base font-semibold py-3 px-6 shadow-[8px_8px_0_0_var(--color-primary)] border-2 border-primary rounded-full text-primary hover:shadow-[15px_15px_0_0_var(--color-primary)] hover:opacity-85 transition duration-300 ease-in-out dark:text-[#292929]">
+              Send
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+  <!-- Contact End -->
+  <!-- Footer Start -->
+  <footer class="bg-primary pt-24 pb-12 dark:bg-[#292929]">
+    <div class="container">
+      <div class="flex flex-wrap">
+        <div class="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/3">
+          <p class="font-bold text-2xl text-white mb-5">
+            Muhammad Faris Kamaaluddin
+          </p>
+          <p class="font-bold text-xl mb-2">Contact me</p>
+          <p>faris.kamaaluddin@gmail.com</p>
+          <p>Gresik East Java, Indonesia</p>
+        </div>
+        <div class="w-full px-4 mb-12 md:w-1/3">
+          <p class="font-bold text-xl text-white mb-5">Social Media</p>
+          <ul class="text-slate-300">
+            <li>
+              <a href="https://www.instagram.com/faris_kamaaluddin/"
+                class="inline-block text-base hover:text-secondary mb-3" target="_blank"
+                rel="noopener noreferrer">Instagram</a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/muhammad-faris-kamaaluddin"
+                class="inline-block text-base hover:text-secondary mb-3" target="_blank"
+                rel="noopener noreferrer">LinkedIn</a>
+            </li>
+            <li>
+              <a href="https://github.com/MarkMoer/" class="inline-block text-base hover:text-secondary mb-3"
+                target="_blank" rel="noopener noreferrer">Github</a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/faris.kamaaluddin/"
+                class="inline-block text-base hover:text-secondary mb-3" target="_blank"
+                rel="noopener noreferrer">Facebook</a>
+            </li>
+          </ul>
+        </div>
+        <div class="w-full px-4 mb-12 md:w-1/3">
+          <p class="font-bold text-xl text-white mb-5">Link</p>
+          <ul class="text-slate-300">
+            <li>
+              <a href="#home" class="inline-block text-base hover:text-secondary mb-3">Home</a>
+            </li>
+            <li>
+              <a href="#project" class="inline-block text-base hover:text-secondary mb-3">Project</a>
+            </li>
+            <li>
+              <a href="#contact" class="inline-block text-base hover:text-secondary mb-3">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="w-full pt-10 border-t border-slate-700">
+        <p class="font-medium text-sm text-slate-400 text-center">
+          © <span id="year"></span> Muhammad Faris Kamaaluddin, All Rights
+          Reserved
+        </p>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer End -->
+  <script type="module" src="/src/main.js"></script>
+</body>
+
 </html>
