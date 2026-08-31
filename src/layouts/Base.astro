@@ -1,0 +1,67 @@
+---
+import '../styles/global.css'
+
+interface Props {
+  title?: string
+  description?: string
+}
+
+const {
+  title = 'Portofolio | Muhammad Faris Kamaaluddin',
+  description = 'Portofolio Muhammad Faris Kamaaluddin — Web Developer Enthusiast dari Gresik, Indonesia.',
+} = Astro.props
+---
+
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta
+      name="keywords"
+      content="portofolio, web developer, faris kamaaluddin, react, laravel, tailwind css"
+    />
+    <meta name="author" content="Muhammad Faris Kamaaluddin" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content="/img/faris.png" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%231a1a1d'/><text x='50' y='72' font-size='60' font-family='Arial, sans-serif' font-weight='bold' fill='%23FFCB6D' text-anchor='middle'>f</text></svg>"
+    />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- No-flash theme: default dark, add 'light' class if saved -->
+    <script is:inline>
+      ;(function () {
+        const saved = localStorage.getItem('theme')
+        if (saved === 'light') {
+          document.documentElement.classList.add('light')
+        }
+      })()
+    </script>
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>

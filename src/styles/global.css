@@ -1,0 +1,136 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-bg: #0d0d0f;
+  --color-surface: #151518;
+  --color-surface-2: #1d1d21;
+  --color-primary: #f5f5f7;
+  --color-secondary: #ffcb6d;
+  --color-muted: #a0a0a8;
+  --color-line: #26262c;
+}
+
+html.light {
+  --color-bg: #fafaf8;
+  --color-surface: #ffffff;
+  --color-surface-2: #f1f1ee;
+  --color-primary: #1a1a1d;
+  --color-secondary: #c8941a;
+  --color-muted: #63636b;
+  --color-line: #e4e4e0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.font-display {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+/* Aurora background */
+.aurora {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.aurora span {
+  position: absolute;
+  border-radius: 9999px;
+  filter: blur(90px);
+  opacity: 0.45;
+}
+
+.aurora span:nth-child(1) {
+  width: 480px;
+  height: 480px;
+  background: radial-gradient(circle, #ffcb6d, transparent 70%);
+  top: -10%;
+  left: -5%;
+  animation: drift 14s ease-in-out infinite alternate;
+}
+
+.aurora span:nth-child(2) {
+  width: 420px;
+  height: 420px;
+  background: radial-gradient(circle, #7c5cff, transparent 70%);
+  top: 10%;
+  right: -5%;
+  animation: drift 18s ease-in-out infinite alternate-reverse;
+}
+
+.aurora span:nth-child(3) {
+  width: 360px;
+  height: 360px;
+  background: radial-gradient(circle, #ff6d6d, transparent 70%);
+  bottom: -15%;
+  left: 20%;
+  animation: drift 16s ease-in-out infinite alternate;
+}
+
+@keyframes drift {
+  0% {
+    transform: translate(0, 0) scale(1);
+  }
+  100% {
+    transform: translate(60px, -40px) scale(1.15);
+  }
+}
+
+/* Scroll reveal */
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Rotating text caret */
+.rotating-caret {
+  display: inline-block;
+  width: 2px;
+  height: 1em;
+  margin-left: 2px;
+  background: var(--color-secondary);
+  vertical-align: baseline;
+  animation: blink 1s steps(2, start) infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-line);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-secondary);
+}
